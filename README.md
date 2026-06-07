@@ -35,14 +35,22 @@ AI_Employee_Onboarding_Assistant/
 ### Prompt Template Configuration
 ![Prompt Template](screenshoot/Prompt_template.png)
 
+This screenshot shows the prompt template configuration used by the AI system. The prompt template defines how the AI processes user questions and generates context-aware responses. It includes the system instructions, context variables, and the structure for combining database search results with user queries to produce helpful onboarding guidance.
+
 ### Chatbot Demo Interface
 ![Chatbot Demo](screenshoot/chatbot-demo.png)
+
+The chatbot demo interface demonstrates the conversational experience for new employees. Users can type their onboarding-related questions and receive immediate, intelligent responses. The interface is designed to be intuitive and user-friendly, making it easy for employees to get the information they need during their onboarding process.
 
 ### Flow Architecture Diagram 1
 ![Flow Diagram 1](screenshoot/flow1.png)
 
+This flow diagram illustrates the first part of the system's architecture, showing how data flows through the initial components. It demonstrates the connection between the AstraDB component (for data retrieval), the ParserComponent (for data processing), and how these components feed into the prompt generation system.
+
 ### Flow Architecture Diagram 2
 ![Flow Diagram 2](screenshoot/flow2.png)
+
+The second flow diagram shows the complete data flow including the user interaction components. It illustrates how the ChatInput component receives user messages, how these are combined with the processed database context through the Prompt Template, and how the SplitText component handles text processing for efficient response generation.
 
 ## 🚀 Features
 
